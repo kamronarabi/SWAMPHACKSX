@@ -178,3 +178,33 @@ code {
     transition: all .1s ease-in-out;
   }
 }
+
+.ytconverter{
+  margin-top:150px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.ytconverter input{
+  width:200px;
+  height: 20px;
+  margin:15px;
+}
+.ytconverter button{
+  height:45px;
+  width: 120px;
+  background-color: gray;
+  font-size: 18px;
+}
+
+.ytconverter button:hover{
+  height:45px;
+  width: 120px;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+}
+

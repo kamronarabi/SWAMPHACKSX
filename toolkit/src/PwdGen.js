@@ -2,7 +2,9 @@ import React from 'react'
 
 const PwdGen = () => {
   return (
-    <div>PwdGen</div>
+    <div className="pwd">
+        
+    </div>
   )
 }
 
