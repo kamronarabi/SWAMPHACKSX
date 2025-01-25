@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  height: 200px
+}
+
+#root {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  background-color: rgb(36, 35, 35);
+}
+
+.mainpage{
+  margin-top:150px;
+  height:100%;
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Header{
+  width: 100%;
+  background-color: #313535;
+  padding: 1.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 80px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Header label{
+  position: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.spacer{
+  display: flex;
+  justify-content: left;
+  width:130px;
+  height:70px;
+}
+
+.homebutton{
+  display: flex;
+  align-content: center;
+  width:75px;
+  height:70px;
+}
+
+.Tool1Button{
+  background-color: #313535;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  border-radius: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  height: 250px;
+  margin: 25px;
+}
+
+.Tool1Button:hover {
+  width:275px;
+  height:275px;
+}
+
+.Tool2Button{
+  background-color: #313535;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  border-radius: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  height: 250px;
+  margin: 25px;
+}
+
+.Tool2Button:hover {
+  width:275px;
+  height:275px;
+}
+
+.Tool3Button{
+  background-color: #313535;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  border-radius: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  height: 250px;
+  margin: 25px;
+}
+
+.Tool3Button:hover {
+  width:275px;
+  height:275px;
+}
+
+.TextSummarizer{
+  margin-top:150px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.TextSummarizer h2{
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding:20px;
+  font-size: 30px;
+}
+
+.TextSummarizer button{
+  display: block;
+  width: 200px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #434649;
+  border: solid 1px transparent;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+  align-content: center;
+  margin: 25px;
+  
+  &:hover {
+    background-color: transparent;
+    border-color: #fff;
+    transition: all .1s ease-in-out;
+  }
+}
