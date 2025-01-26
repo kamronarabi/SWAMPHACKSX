@@ -5,7 +5,7 @@ const Tool1 = () => {
   return (
     <button className="Tool1Button">
         Text Summarizer
-        <FaQuoteRight size={52}/>
+        <FaQuoteRight size={65}/>
     </button>
   )
 }

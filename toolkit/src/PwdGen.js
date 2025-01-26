@@ -6,7 +6,7 @@ const PwdGen = () => {
     
   const [password, setPassword] = useState('');
   const [length, setLength] = useState(8);
-  const [includeUppercase, setIncludeUppercase] = useState(true);
+  const [includeUppercase, setIncludeUppercase] = useState(false);
   const includeLowercase = true;
   const [includeNumbers, setIncludeNumbers] = useState(false);
   const [includeSymbols, setIncludeSymbols] = useState(false);

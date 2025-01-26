@@ -5,7 +5,7 @@ const Tool4 = () => {
   return (
     <button className="Tool3Button">
         Find Song by Lyric
-        <FaMusic size={52}/>
+        <FaMusic size={70}/>
     </button>
   )
 }

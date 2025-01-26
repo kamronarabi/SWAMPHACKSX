@@ -6,6 +6,7 @@ import YtMP3 from "./YtMP3.js"
 import PwdGen from "./PwdGen.js"
 import Lyric from "./Lyric.js"
 import PDF from "./PDF.js"
+import QR from "./QR.js"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/pwdgen" element={<PwdGen/>}/>
         <Route path="/lyric" element={<Lyric/>}/>
         <Route path="/pdf" element={<PDF/>}/>
+        <Route path="/qr" element={<QR/>}/>
       </Routes>
     </div>
   );

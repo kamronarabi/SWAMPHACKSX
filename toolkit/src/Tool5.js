@@ -5,7 +5,7 @@ const Tool5 = () => {
   return (
     <button className="Tool3Button">
         Text to PDF Converter
-        <FaFileAlt size={52}/>
+        <FaFileAlt size={70}/>
     </button>
   )
 }

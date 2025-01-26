@@ -2,9 +2,10 @@ import React from 'react'
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import {useState} from "react"
 
+
 const TextSummary = () => {
-    const geminiapi = "AIzaSyA11OyOMu_K68NoMsyOhNhSXC29tSEiuPY"
-    const genAI = new GoogleGenerativeAI(geminiapi);
+    const GEMINI_API_KEY="AIzaSyA11OyOMu_K68NoMsyOhNhSXC29tSEiuPY"
+    const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
     const model = genAI.getGenerativeModel({ model: "gemini-pro" });
     const[text, setText] = useState("");
     const[aiResponse, setAIResponse] = useState("");
@@ -39,5 +40,4 @@ const TextSummary = () => {
     </form>
   )
 }
-
 export default TextSummary

@@ -5,7 +5,7 @@ const Tool3 = () => {
   return (
     <button className="Tool3Button">
         Password Generator
-        <FaLock size={52}/>
+        <FaLock size={70}/>
     </button>
   )
 }
