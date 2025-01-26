@@ -145,8 +145,11 @@ code {
   flex-direction: column;
   align-items: center;
   width: 100%;
-}
 
+}
+.TextSummarizer textarea{
+  resize:none;
+}
 .TextSummarizer h2{
   color: white;
   text-align: center;
@@ -154,7 +157,7 @@ code {
   flex-direction: column;
   margin: 20px;
   padding:20px;
-  font-size: 30px;
+  font-size: 60px;
 }
 
 .TextSummarizer button{
@@ -186,6 +189,7 @@ code {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  font-size: 28px;
 }
 
 .ytconverter input{
@@ -194,17 +198,109 @@ code {
   margin:15px;
 }
 .ytconverter button{
-  height:45px;
-  width: 120px;
-  background-color: gray;
+  display: block;
+  width: 200px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #434649;
+  border: solid 1px transparent;
+  color: #fff;
   font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+  align-content: center;
+  margin: 25px;
+  
+  &:hover {
+    background-color: transparent;
+    border-color: #fff;
+    transition: all .1s ease-in-out;
+  }
 }
 
-.ytconverter button:hover{
-  height:45px;
-  width: 120px;
-  background-color: transparent;
+
+
+.pwd{
+  display:flex;
+  flex-direction: column;
+  margin-top: 150px;
+  width:100%;
+  align-items:center;
   color: white;
-  font-size: 18px;
+  padding: 10px;
+  font-size: 28px;
+}
+.checklist{
+  display:flex;
+  flex-direction: column;
+  align-content:center;
+}
+.pwd label{
 }
 
+.pwd button{
+  display: block;
+  width: 200px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #434649;
+  border: solid 1px transparent;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+  align-content: center;
+  margin-bottom: 100px;
+  
+  &:hover {
+    background-color: transparent;
+    border-color: #fff;
+    transition: all .1s ease-in-out;
+  }
+}
+
+.lyric{
+  width:100%;
+  margin-top: 175px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  color:white;
+  font-size: 28px;
+}
+.lyric textarea{
+  width:250px;
+  height:100px;
+  resize:none;
+  margin-bottom: 30px;
+  margin-top: -10px;
+}
+
+.button{
+  display: block;
+  width: 200px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #434649;
+  border: solid 1px transparent;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+  align-content: center;
+  margin-bottom: 100px;
+  
+  &:hover {
+    background-color: transparent;
+    border-color: #fff;
+    transition: all .1s ease-in-out;
+  }
+}
+
+.lyric input{
+  height: 30px;
+  width:400px;
+}
