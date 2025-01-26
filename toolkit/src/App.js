@@ -5,6 +5,7 @@ import TextSummary from "./TextSummary.js";
 import YtMP3 from "./YtMP3.js"
 import PwdGen from "./PwdGen.js"
 import Lyric from "./Lyric.js"
+import PDF from "./PDF.js"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/ytmp3" element={<YtMP3/>}/>
         <Route path="/pwdgen" element={<PwdGen/>}/>
         <Route path="/lyric" element={<Lyric/>}/>
+        <Route path="/pdf" element={<PDF/>}/>
       </Routes>
     </div>
   );

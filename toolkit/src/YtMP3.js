@@ -1,12 +1,9 @@
 import React from 'react'
-import { useState, useEffect } from "react";
-import axios from "axios";
-import {fetch} from "./api/ApiRequest.js"
+import { useState } from "react";
 
 const YtMP3 = () => {
     const [link, setLink] = useState('');
     const [id, setId] = useState(null);
-    const [response, setResponse] = useState(null);
     const [disabled, setDisabled] = useState(false);
     const [change, setChange] = useState(0)
     
