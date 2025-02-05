@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/SWAMPHACKSX/static/css/main.a1389402.css",
-    "main.js": "/SWAMPHACKSX/static/js/main.7b74cbc7.js",
+    "main.js": "/SWAMPHACKSX/static/js/main.4a0997c3.js",
     "static/js/239.69f36f2b.chunk.js": "/SWAMPHACKSX/static/js/239.69f36f2b.chunk.js",
     "static/js/213.31d5c622.chunk.js": "/SWAMPHACKSX/static/js/213.31d5c622.chunk.js",
     "static/js/455.26052aec.chunk.js": "/SWAMPHACKSX/static/js/455.26052aec.chunk.js",
     "index.html": "/SWAMPHACKSX/index.html",
     "main.a1389402.css.map": "/SWAMPHACKSX/static/css/main.a1389402.css.map",
-    "main.7b74cbc7.js.map": "/SWAMPHACKSX/static/js/main.7b74cbc7.js.map",
+    "main.4a0997c3.js.map": "/SWAMPHACKSX/static/js/main.4a0997c3.js.map",
     "239.69f36f2b.chunk.js.map": "/SWAMPHACKSX/static/js/239.69f36f2b.chunk.js.map",
     "213.31d5c622.chunk.js.map": "/SWAMPHACKSX/static/js/213.31d5c622.chunk.js.map",
     "455.26052aec.chunk.js.map": "/SWAMPHACKSX/static/js/455.26052aec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a1389402.css",
-    "static/js/main.7b74cbc7.js"
+    "static/js/main.4a0997c3.js"
   ]
 }
